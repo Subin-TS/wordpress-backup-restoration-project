@@ -1,0 +1,24 @@
+# Log Files
+*.log
+logs/
+
+# Cache Files
+.cache/
+tmp/
+temp/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Apache & PHP Runtime Files
+*.pid
+*.sock
+
+# Backup Files 
+
+ wordpress-backup/*.tar.gz
+ wordpress-backup/*.sql
+
+# Git Files
+.git/

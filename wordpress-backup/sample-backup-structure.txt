@@ -1,0 +1,5 @@
+wordpress-backup/         ## actual backup files are excluded using .gitignore and it is the backup structure
+
+├── wordpress-files.tar.gz
+├── wordpressdb.sql
+├── apache-config.tar.gz  
