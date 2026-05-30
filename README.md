@@ -1,4 +1,4 @@
-</> Markdown
+
 # WordPress Website Deployment, Backup and Restoration
 
 # Project Overview
@@ -14,7 +14,7 @@
 - Restore the website from backup
 - Validate recovery 
 
-## Technologies Used
+# Technologies Used
 
 | Component | Technology |
 |------------|------------|
@@ -29,7 +29,7 @@
 
 
 
-## Architecture
+# Architecture
 
 ```text
 Browser
@@ -42,7 +42,7 @@ MariaDB
 ```  
 
 
-## Project Workflow
+# Project Workflow
 
 ```text
 Deploy
@@ -58,7 +58,7 @@ Restore
 Validate
 ```  
 
-## Project Structure
+# Project Structure
 
 ```text
 wp-backup-restoration-project
@@ -97,41 +97,41 @@ wp-backup-restoration-project
 
 
 
-## Features Implemented
+# Features Implemented
 
-### WordPress Deployment
+# WordPress Deployment
 
 - Apache Installation
 - PHP Installation
 - MariaDB Installation
 - WordPress Setup
 
-### Website Configuration
+# Website Configuration
 
 - Theme Installation
 - User Creation
 - Password Reset through CLI
 - Website Customization
 
-### Backup
+# Backup
 
 - Website Files Backup
 - Database Backup
 - Apache Configuration Backup
 
-### Disaster Recovery
+# Disaster Recovery
 
 - Website Removal
 - Dependency Removal
 - Database Deletion
 
-### Restoration
+# Restoration
 
 - File Restoration
 - Database Restoration
 - Configuration Restoration
 
-### Verification
+# Verification
 
 -Successfully verified:
 
@@ -141,57 +141,57 @@ wp-backup-restoration-project
 - Database restoration
 - Website content integrity  
 
-## Screenshots
+# Screenshots
 
-### WordPress Homepage
+# WordPress Homepage
 
 ![Homepage](screenshot/pre-site-view.png)
 
-### Apache Installation Verification
+# Apache Installation Verification
 
 ![Apache Status](screenshot/apache-version-status.png)
 
-### PHP Module Verification
+# PHP Module Verification
 
 ![PHP Verification](screenshot/php-version-module.png)
 
-### MariaDB Verification
+# MariaDB Verification
 
 ![MariaDB Verification](screenshot/mysql-version-status.png)
 
-### Database and User Creation
+# Database and User Creation
 
 ![Database User](screenshot/wp-database-user.png)
 
-### Backup Creation
+# Backup Creation
 
 ![Backup](screenshot/wp-backup-created.png)
 
-### Apache Backup Content Verification
+# Apache Backup Content Verification
 
 ![Apache Backup](screenshot/apache-gzip-content.png)
 
-### WordPress Backup Content Verification
+# WordPress Backup Content Verification
 
 ![WordPress Backup](screenshot/gzipfile-content.png)
 
-### Disaster Recovery Simulation
+# Disaster Recovery Simulation
 
 ![Removal Validation](screenshot/wordpress-removal-validation.png)
 
-### Apache and Database Removal Verification
+# Apache and Database Removal Verification
 
 ![Removal Verification](screenshot/database-apache-removed.png)
 
-### Database Restoration Verification
+# Database Restoration Verification
 
 ![Database Restore](screenshot/wp-table-verify-after-restoration.png)
 
-### User Verification After Restoration
+# User Verification After Restoration
 
 ![User Verification](screenshot/user-verify-after-restoration.png)
 
-### WordPress Website After Restoration
+# WordPress Website After Restoration
 
 ![Website Restored](screenshot/wpsite-view-post-restoration.png)
 
